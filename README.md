@@ -9,7 +9,7 @@ This is an application for controlling a Muses72323 audio preamplifier. Items co
 *  Visual display of above settings
 *  Power-off detection with storage of current settings
 
-An Arduino Nano interfaces through a motherboard to the on-board rotary encoder and IR receiver. External interfaces connect to a source select relay board, a balanced digital volume controller / preamplifier board (based on Bruno Putzeys balanced pre-amp with an integrated MAS6116 digital volume control chip) and a 20 x 4 LCD I2C module.
+An Arduino Nano interfaces through a motherboard to the on-board rotary encoder and IR receiver. External interfaces connect to a source select relay board, a balanced digital volume controller / preamplifier board (based on Bruno Putzeys balanced pre-amp with an integrated MUSES72323 digital volume control chip) and a 20 x 4 LCD I2C module.
 
 The Quadrature rotary encoder/switch (PEC11R) provides control of the volume as the default mode. Pressing the encoder shaft button switches over to SOURCE SELECT mode and this remains as the active mode till rotary encoder turning is inactive for longer than the TIME_EXITSELECT value (in seconds).
 
