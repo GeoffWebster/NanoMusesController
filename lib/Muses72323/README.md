@@ -1,4 +1,4 @@
-# Muses 72320
+# Muses 72323
 
 Arduino library for communicating with the Muses 72320 audio chip.
 The data sheets can be found [here](http://www.njr.com/semicon/PDF/MUSES72320_E.pdf) (pdf).
@@ -10,13 +10,13 @@ Download the latest release over at the [Releases](https://github.com/qhris/Muse
 ## Example
 
 ```c++
-#include <Muses72320.h>
+#include <Muses72323.h>
 
 // The address wired into the muses chip (usually 0).
 static const byte MUSES_ADDRESS = 0;
 
-static Muses72320 Muses(MUSES_ADDRESS);
-static Muses72320::volume_t CurrentVolume = -20;
+static Muses72323 Muses(MUSES_ADDRESS);
+static Muses72323::volume_t CurrentVolume = -20;
 
 void setup()
 {
